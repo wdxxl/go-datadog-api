@@ -47,7 +47,7 @@ type NewMonitor struct {
 	Status               string         `json:"status,omitempty"`
 	Scopes               []string       `json:"scopes,omitempty"`
 	Classification       string         `json:"classification,omitempty"`
-	Creator              Creator        `json:"creator,omitempty"`
+	// Creator              Creator        `json:"creator,omitempty"`
 	OverallStateModified int            `json:"overall_state_modified,omitempty"`
 	Metrics              []string       `json:"metrics,omitempty"`
 	Notifications        []Notification `json:"notifications,omitempty"`
